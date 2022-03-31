@@ -1,6 +1,6 @@
 {
   "name": "@dtstack-wanfeng/npm-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "包 # npm-demo",
   "main": "src/index.ts",
   "scripts": {
