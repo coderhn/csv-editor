@@ -1,17 +1,27 @@
 {
-  "name": "npm-demo",
+  "name": "@dtstack-wanfeng/npm-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "包 # npm-demo",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init:git": "git init && echo 'node_modules' >>  .gitignore && echo '#' $npm_package_name '\n' >> README.md",
-    "init:eslint": "npm run eslint"
+    "init:eslint": "npx eslint --init"
   },
   "keywords": [],
-  "author": "",
+  "author": "easyv",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.12.0"
-  }
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderhn/csv-editor.git"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/coderhn/csv-editor/issues"
+  },
+  "homepage": "https://github.com/coderhn/csv-editor#readme"
 }
