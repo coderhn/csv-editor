@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init:git": "git init && echo 'node_modules' >>  .gitignore && echo '#' $npm_package_name '\n' >> README.md",
-    "init:eslint": "npx eslint --init"
+    "init:eslint": "npx eslint --init",
+    "prepublish": "npm run patch"
   },
   "keywords": [],
   "author": "easyv",
